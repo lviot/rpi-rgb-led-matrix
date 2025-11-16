@@ -1,0 +1,24 @@
+//
+// Created by Louis Viot on 22/11/2025.
+//
+
+#ifndef RPI_RGB_LED_MATRIX_ERRORS_H
+#define RPI_RGB_LED_MATRIX_ERRORS_H
+
+typedef enum {
+    NONE = 0,
+    // Bad argument
+    BAD_ARG_EXPECT_ATOM,
+    BAD_ARG_EXPECT_BOOL,
+    BAD_ARG_EXPECT_INTEGER,
+    BAD_ARG_EXPECT_DOUBLE,
+    BAD_ARG_EXPECT_LONG,
+    BAD_ARG_EXPECT_LIST,
+    BAD_ARG_EXPECT_MAP,
+    BAD_ARG_EXPECT_TUPLE,
+    BAD_ARG_EXPECT_CHARLIST,
+
+    MEM_ALLOC,
+} error_e;
+
+#endif //RPI_RGB_LED_MATRIX_ERRORS_H
